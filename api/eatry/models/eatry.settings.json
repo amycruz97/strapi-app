@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eatries",
+  "info": {
+    "name": "eatry"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "averageprice": {
+      "type": "decimal"
+    }
+  }
+}
